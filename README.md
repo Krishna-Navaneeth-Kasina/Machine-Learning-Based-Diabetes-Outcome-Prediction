@@ -30,6 +30,19 @@
 <h3>Step 01: Data Collection</h3>
 <p>We started by collecting and understanding the dataset.</p>
 
+<p>The dataset contains medical records for <strong>768</strong> patients, with the following features:</p>
+<ul>
+    <li><strong>Pregnancies:</strong> Number of times pregnant</li>
+    <li><strong>Glucose:</strong> Plasma glucose concentration</li>
+    <li><strong>BloodPressure:</strong> Diastolic blood pressure</li>
+    <li><strong>SkinThickness:</strong> Triceps skinfold thickness</li>
+    <li><strong>Insulin:</strong> 2-hour serum insulin</li>
+    <li><strong>BMI:</strong> Body mass index (weight in kg/(height in m)<sup>2</sup>)</li>
+    <li><strong>DiabetesPedigreeFunction:</strong> A function that calculates genetic risk</li>
+    <li><strong>Age:</strong> Age in years</li>
+    <li><strong>Outcome:</strong> Binary variable (1 = diabetic, 0 = non-diabetic)</li>
+</ul>
+
 <h3>Step 02: Exploratory Data Analysis (EDA)</h3>
 <p>EDA was performed to identify important trends and relationships in the data:</p>
 <ul>
@@ -204,4 +217,29 @@
         <li><strong>Hyperparameter Tuning</strong>: Further tuning of the selected model to optimize performance.</li>
         <li><strong>Feature Engineering</strong>: Introduce new medical features and domain-specific knowledge to improve the prediction.</li>
         <li><strong>Model Deployment</strong>: Deploy the model as an API for real-time predictions.</li>
+</ul>
+
+
+<h2>Dataset</h2>
+<p>The PIMA Indian Diabetes Dataset used in this analysis is available on the UCI Machine Learning Repository. It consists of medical records of female patients and contains the following attributes:</p>
+<ul>
+    <li>Pregnancies</li>
+    <li>Glucose</li>
+    <li>Blood Pressure</li>
+    <li>Skin Thickness</li>
+    <li>Insulin</li>
+    <li>BMI</li>
+    <li>Diabetes Pedigree Function</li>
+    <li>Age</li>
+    <li>Outcome (Diabetes Yes/No)</li>
+</ul>
+
+<h2>Libraries Used</h2>
+<p>The following Python libraries were used in this project:</p>
+<ul>
+    <li><strong>Pandas:</strong> For data manipulation and analysis.</li>
+    <li><strong>Numpy:</strong> For numerical computing and handling arrays.</li>
+    <li><strong>Scikit-learn:</strong> For implementing machine learning models and evaluation metrics.</li>
+    <li><strong>Matplotlib:</strong> For data visualization.</li>
+    <li><strong>Seaborn:</strong> For advanced statistical graphics.</li>
 </ul>
